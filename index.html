@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hatchery JavaScript Day1</title>
+</head>
+<body>
+    <main>
+        <div class="form_container">
+            <form id="form">
+                <div class="container">
+                    <div class="flex">
+                        <h1>Welcome to our example form app!</h1>
+                        <p>Please use the register form bitch</p>
+                    </div>
+                    <label for="username"></label>
+                    <input type="text" placeholder="Enter username" name="username" id="username" required>
+                    <span id="name-error"></span>
+
+                    <label for="psw"></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                    <span id="psw-error"></span>
+                    
+                    <label for="psw-repeat"></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                    <span id="psw-repeat-error"></span>
+                    
+                    <label for="email"></label>
+                    <input type="text" placeholder="Enter email" name="email" id="email" required>
+                    <span id="email-error"></span>
+                    
+                    <label for="date"></label>
+                    <input type="date" placeholder="mm/dd/yyyy" name="date" id="date" required>
+                    <span id="date-error"></span>
+
+                    <button type="submit" class="registerbtn">REGISTER</button>
+
+                    <h2>User list</h2>
+
+                    <p id="output">Empty</p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
